@@ -1,0 +1,198 @@
+.main__sub{
+	padding: 0 11rem;
+	animation: slideout 3s alternate;
+	margin-top: -8rem;
+}
+
+.main__sub-header {
+	color: #173b6c;
+	border-bottom: .2rem #149ddd solid;
+	width: 3rem;
+	font-size: 1.9rem;
+	line-height: 1.8;
+}
+ .About_main{
+	display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.About_main img{
+	width: 20%;
+	height: 50%;
+	border-radius: 30rem;
+}
+.About_main i{
+	color: #149ddd;
+}
+.About_main b{
+	padding-left: .5rem;
+}
+.About_main p{
+  /*width: 50rem;*/
+}
+
+.biodata ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+	font-size: 1.2rem;
+	padding-left:  2rem;
+}
+
+/*resume*/
+.resume{
+	/*position: relative;*/
+	animation: slidein 3s alternate;
+}
+
+.resume button{
+	position: relative;
+	top: .5rem;
+	left: 33rem;
+	/*margin:  2rem 33rem;*/
+	background: #149ddd;
+	padding: 1rem;
+	border: none;
+	border-radius: 2rem;
+	color: #fff;
+}
+
+
+
+
+/*Skills*/
+#porfolio{
+	background: #f5f8fd;
+	padding: 3rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	animation: slideout 3s alternate;
+}
+.progress{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 2rem;
+	grid-gap: 3rem;
+}
+
+
+
+
+/*contact*/
+#contact{
+	/*widows: 80%;*/
+	/*position: relative;*/
+}
+#contact form{
+	background: #fff;
+	margin: 3rem;
+	padding:  3rem 8rem;
+	display: block;
+    box-shadow: 1.4rem .6rem .2rem rgba(34, 65, 97, .4);
+    border:none;
+    
+}
+
+#contact form input[type = 'text'],
+#contact form input[type = 'email']{
+	width: 100%;
+	margin: 1rem;
+	height: 2rem;
+	border-radius: 1rem;
+	outline: none;
+    padding: 1.3rem;
+
+}
+#contact textarea{
+	margin: 1rem;
+	width: 100%;
+	border-radius: 1rem;
+	outline: none;
+	padding: 1.3rem;
+}
+
+.send{
+	padding: 1.3rem;
+	margin: 2rem;
+	border: none;
+	border-radius: 3rem;
+	font-size: 1rem;
+
+}
+
+
+
+
+
+
+/*ANIMATION*/
+/*CAPTION*/
+@keyframes movein{
+	0%{
+		opacity: 0;
+		transform: translateX(-2rem);
+	}
+	15%{
+		opacity: .7;
+		transform: translateX(1rem);
+		color: #534aec;
+	}
+	25%{
+		opacity: .7;
+		transform: translateX(1.5rem);
+		color: #534aec;
+	}
+	35%{
+		opacity: .7;
+		transform: translateX(4rem);
+		color: #b9f451;
+	}
+	45%{
+		opacity: .8;
+		transform: translateX(4rem);
+		color: #ccc;
+	}
+	55%{
+      opacity: 1;
+      /*transform: scale(2);*/
+      color: red;
+	}
+	80%{
+		color: #342;
+		transform: translateX(2rem);
+	}
+	100%{
+		color: #000;
+		opacity: 1;
+		transform: translateX(3rem);
+	}
+}
+
+@keyframes slidein{
+	from{
+		transform: translateX(-40rem);
+	}
+	to{
+		transform: translateX(40rem);
+	}
+}
+@keyframes slideout{
+	from{
+		transform: translateY(-40rem);
+	}
+	to{
+		transform: translateY(40rem);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

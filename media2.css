@@ -1,0 +1,322 @@
+
+/*Responsiveness*/
+/*
+	viewport
+	595
+	600
+	768
+	920
+	1200
+
+*/
+/**port 1200*/
+/*@media only screen and (min-width: 1200px){
+   
+ .main{
+	display: flex;
+	justify-content: space-around;	
+	align-items: center;
+  }	
+ 
+ }
+ 
+*/
+/*port 900*/
+
+  
+  /*about*/
+  
+  @media only screen and (max-width: 900px){
+  
+  #About{
+      margin-left: -5rem;
+      margin-top: 13rem;
+  }
+  .About_main{
+      display: flex;
+      flex-direction: column;
+  }
+  .About_main h2{
+    padding: 1rem;
+  }
+  .About_main p{
+    width: 30rem;
+    padding: .5rem;
+  }
+  .About_main img{
+      width: 60%;
+      margin-left: 4.3rem;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 600px){
+  
+  #About{
+      margin-top: 6rem;
+  }
+  p {
+      font-size: 16px;
+      padding: 15px;
+      width: 30rem;
+  }
+  .About_main {
+      margin-left: -2rem;
+  }
+  .About_main h2{
+     width: 30rem;
+     font-weight: 900;
+     color: blue;
+  }
+  #Aboutp2{
+      font-size: 1rem;
+      font-family: monospace;
+      padding: 1rem;
+  }
+  .About_main img{
+      width: 130%;
+  }
+  .biodata ul {
+       font-size: 1rem;
+   } 
+  }
+  @media only screen and (max-width: 400px){
+      
+      #About{
+          margin-top: 14rem;
+          margin-left: -8rem;
+      }
+  
+      #Aboutp1{
+          width: 17rem;
+      }
+      #Aboutp2{
+      width: 21rem;
+      
+  }
+  
+      .biodata__header{
+          margin-top: 0;
+          margin-left: -2rem;
+          font-size: 1.2rem;
+      }
+  
+      
+      .biodata p{
+       font-size: 1rem;
+      }
+      
+      .biodata  ul {
+          /*text-align: center;*/
+          display: block;
+          width:  22rem;		
+      }.biodata  ul li{
+          font-size: 1rem;
+  
+      }
+  }
+  
+  /*port 600*/
+  /*port 400*/
+  @media only screen and (max-width: 600px){
+  
+    .readmore {
+        margin-top: 0rem;
+      margin-left:  -2rem;
+  }
+  
+  }
+  
+  /*port 400*/
+  @media only screen and (max-width: 400px){
+  #Home{
+      margin-left: -4rem;
+  }
+  .caption p{
+      
+      padding: -1rem;
+      width: 15rem;
+      font-size: 1rem;
+      
+  }
+  .side-img img{
+        width: 60%;
+        border: 1px solid red;
+      margin-left: 2rem;
+    }
+    .readmore {
+        margin-top: 0rem;
+      /*margin-left:  -18rem;*/
+  }
+  
+  }
+  
+  
+  /*resume*/
+  
+  @media only screen and (max-width: 900px){
+      .resume{
+         margin-left: -5rem;
+         margin-top: 2rem;
+      }
+      
+  }
+  
+  /*port 400*/
+  
+  @media only screen and (max-width: 400px){
+  #Home{
+      margin-left: -4rem;
+  }
+  .caption p{
+      
+      padding: -1rem;
+      width: 15rem;
+      font-size: 1rem;
+      
+  }
+  .side-img img{
+        width: 60%;
+        border: 1px solid red;
+      margin-left: 2rem;
+     }
+    .readmore {
+        margin-top: 0rem;
+      margin-left:  -18rem;
+      }
+  
+  
+   button{
+      
+      margin-left: -26rem;
+      
+      }
+  }
+  
+  
+  
+  @media only screen and (max-width: 400px){
+      .resume{
+         margin-left: -9rem;
+         margin-top: -2rem;
+      }
+      .resume p{
+      width: 20rem;
+      
+      }
+      .resume button{
+      margin-left: -33rem;
+      
+      }
+  }
+  
+  
+  
+  
+  /*portfolio*/
+  @media only screen and (max-width: 900px){
+  
+      #porfolio{
+          margin-left: -6rem;
+      }
+      .progress{
+          display: flex;
+      flex-direction: column;
+      line-height: 2;
+      }
+  
+      progress{
+          background: blue;
+      }
+      .send{
+              /* margin-left: -26rem; */
+      background: blue;
+      color: #fff;
+  
+      }
+  }
+  
+  @media only screen and (max-width: 600px){
+      #porfolio{
+          width: 28.5rem;
+      }
+      #porfolio p {
+          width: 23rem;
+      }
+  }
+  
+  @media only screen and (max-width: 400px){
+      #porfolio{
+          width: 20.5rem;
+          margin-left: -10rem;
+  
+      }
+      #porfolio p {
+          width: 16rem;
+          text-align: justify-all;
+      }
+  }
+  
+  
+  
+  
+  /*contact*/
+  
+  @media only screen and (max-width: 900px){
+      #contact{
+          margin-left: -4rem;
+      }
+      #contact p{
+          padding: 2rem;
+      }
+     #contact form{
+      width: 100%;
+      
+      }	
+  
+  }
+  
+  @media only screen and (max-width: 600px){
+      #contact p{
+          width: 27rem;
+      }
+      #contact form{
+              padding: 3rem 3rem;
+              width: 159%;
+              margin-left: -2rem;
+  
+      }
+  
+      #contact button{
+              padding: 1.3rem;
+              background: #534aec;
+              color: #fff;
+              margin-top: 2rem;
+              border: none;
+              border-radius: 2.3rem;
+      } 
+  }
+  
+  @media only screen and (max-width: 400px){
+      #contact {
+          margin-left: -10rem;
+      }
+      #contact p{
+          width: 21rem;
+      }
+      #contact form{
+              padding: 3rem 3rem;
+              width: 179%;
+              margin-left: 0rem;
+      }
+  
+      #contact button{
+              padding: 1.3rem;
+              background: #534aec;
+              color: #fff;
+              margin-top: 2rem;
+              border: none;
+              border-radius: 2.3rem;
+      } 
+  }
+  
